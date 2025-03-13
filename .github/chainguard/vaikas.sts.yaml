@@ -1,6 +1,9 @@
 issuer: https://accounts.google.com
+subject_pattern: '[0-9]+'
+claim_pattern:
+  email: '.*@vaikas-chainguard\.iam\.gserviceaccount\.com'
 # grypedb-3z1y-dlv@vaikas-chainguard.iam.gserviceaccount.com
-subject: 110743266410577433854
+#subject: 110743266410577433854
 
 permissions:
   contents: read
